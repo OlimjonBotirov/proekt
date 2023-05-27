@@ -1,0 +1,26 @@
+.container{
+    height: 500px;
+    border: 15px solid grey;
+    display: grid;
+}
+.q{
+    background-color: red;
+}
+.w{
+    background-color: greenyellow;
+}
+.e{
+    background-color: pink;
+}
+.r{
+    background-color: blue;
+}
+.t{
+    background-color: blue;
+}
+.box{
+   
+    display: flex;
+   align-items: center;
+   justify-content: center;
+}

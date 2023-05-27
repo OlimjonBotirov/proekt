@@ -1,0 +1,62 @@
+.container1{
+    margin: 20px 40px;
+    height: 120px;
+    display: grid;
+    grid-template-columns: auto 800px auto;
+    column-gap: 50px;
+}
+.container1 .item{
+    background-color: greenyellow;
+    border: 5px solid black;
+}
+.container2{
+    margin: 20px 40px;
+    height: 120px;
+    display: grid;
+    grid-template-columns: 900px 100px auto;
+    column-gap: 40px;
+}
+.container2 .item{
+    background-color: greenyellow;
+    border: 5px solid black;
+}
+.container3{
+    margin: 20px 40px;
+    height: 120px;
+    display: grid;
+    grid-template-columns: 100px 300px auto;
+    column-gap: 40px;
+}
+.container3 .item{
+    background-color: greenyellow;
+    border: 5px solid black;
+}
+.container4{
+    margin: 20px 40px;
+    height: 120px;
+    display: grid;
+    grid-template-columns: auto 100px  auto 100px auto;
+    column-gap: 40px;
+}
+.container4 .item{
+    background-color: greenyellow;
+    border: 5px solid black;
+}
+.w:hover{
+    background-color: blue;
+    animation-name: r;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    box-shadow: 0px 0px 30px red;
+    animation-direction: alternate;
+    cursor: pointer;
+    border-radius: 50%;
+}
+@keyframes r {
+    0%{
+        rotate: 90deg;
+    }
+    100%{
+        rotate: -180deg;
+    }
+}
